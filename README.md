@@ -1,4 +1,4 @@
-# Raspberry-Pi-RGB-LED-Control-w-GUI
+﻿# Raspberry-Pi-RGB-LED-Control-w-GUI
 A Python script that allows you to control a common anode RGB LED from a GUI on the Raspberry Pi
 
 ## Wiring
@@ -8,6 +8,11 @@ Green:	Pin 15
 Blue:	Pin 13  
   
 Note: The pin numbers follow BOARD numbering, not BCM.
+
+Resistors:
+Red:	200 Ω  
+Green:	100 Ω  
+Blue:	100 Ω
 
 ## GUI
 ![alt text](https://github.com/Linja82/Raspberry-Pi-RGB-LED-Control-w-GUI/blob/main/Images/GUI_Screenshot.png "GUI Screenshot")

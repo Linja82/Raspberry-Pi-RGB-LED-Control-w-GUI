@@ -7,6 +7,11 @@ import time
 # Duty cycle values need to be inverted because the LED is common anode
 # Higher duty cycle reduces the voltage difference between the GPIO pin and the 3.3V rail
 
+# Resistors:
+#   Red: 200 Ω
+#   Green: 100 Ω
+#   Blue: 100 Ω
+
 colour_pins = [11, 15, 13] # Red, Green, Blue
 
 
