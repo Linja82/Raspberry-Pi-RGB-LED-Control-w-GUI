@@ -9,7 +9,7 @@ Blue:	Pin 13
   
 Note: The pin numbers follow BOARD numbering, not BCM.
 
-Resistors:
+## Resistors:  
 Red:	200 Ω  
 Green:	100 Ω  
 Blue:	100 Ω
