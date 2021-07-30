@@ -59,7 +59,7 @@ setup()
 
 window = Tk()
 window.title("RGB LED Control")
-window.geometry("200x360")
+window.geometry("280x360")
 
 # Create the widgets
 red_label = Label(window, text="Red")
@@ -72,17 +72,17 @@ blue_label = Label(window, text="Blue")
 blue_slider = Scale(window, from_=255, to=0, length=300, resolution=1, orient=VERTICAL)
 
 # Place the widgets on a grid
-red_label.grid(row=0, column=0)
-red_slider.grid(row=1, column=0)
+red_label.grid(row=0, column=0, padx=(60, 0))
+red_slider.grid(row=1, column=0, padx=(30, 0))
 
-green_label.grid(row=0, column=1)
+green_label.grid(row=0, column=1, padx=(25, 0))
 green_slider.grid(row=1, column=1)
 
-blue_label.grid(row=0, column=2)
+blue_label.grid(row=0, column=2, padx=(26, 0))
 blue_slider.grid(row=1, column=2)
 
 
-leave = Button(window, text="Exit", command = shutdown).grid(row=2, column=2)
+leave = Button(window, text="Exit", command = shutdown).grid(row=2, column=1, padx=(30, 0))
 
 LOOP_ACTIVE = True
 while LOOP_ACTIVE:
