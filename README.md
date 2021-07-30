@@ -10,7 +10,7 @@ Blue:	Pin 13
 Note: The pin numbers follow BOARD numbering, not BCM.
 
 ## GUI
-![alt text] (https://github.com/Linja82/Raspberry-Pi-RGB-LED-Control-w-GUI/blob/main/Images/GUI_Screenshot.png "GUI Screenshot")
+![alt text] (https://github.com/Linja82/Raspberry-Pi-RGB-LED-Control-w-GUI/blob/main/Images/GUI_Screenshot.png)
   
 Use the sliders to select the rgb value you want displayed on the LED.  
   
