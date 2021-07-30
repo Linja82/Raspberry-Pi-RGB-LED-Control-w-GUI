@@ -59,7 +59,7 @@ setup()
 
 window = Tk()
 window.title("RGB LED Control")
-window.geometry("500x400")
+window.geometry("200x360")
 
 # Create the widgets
 red_label = Label(window, text="Red")
